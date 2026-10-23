@@ -1,0 +1,46 @@
+# Required dimensions; tool availability determines how each is verified.
+responsive:
+  required: true
+  minimum_viewports: [narrow, medium, wide]
+accessibility:
+  required: true
+  checks:
+    - semantic_structure
+    - keyboard_navigation
+    - visible_focus
+    - accessible_names_and_labels
+    - contrast
+    - reduced_motion
+performance:
+  required: true
+  checks:
+    - avoid_unnecessary_dependencies
+    - reasonable_image_sizes
+    - avoid_unnecessary_rerenders_or_work
+    - inspect_large_assets_when_tools_allow
+visual_consistency:
+  required: true
+  checks:
+    - design_tokens
+    - typography_hierarchy
+    - spacing_consistency
+    - component_states
+    - alignment_and_responsive_composition
+tests:
+  required: true
+  checks:
+    - run_relevant_existing_tests
+    - run_lint_typecheck_build_when_available
+    - report_checks_not_run
+seo:
+  required: contextual
+  public_pages:
+    - meaningful_title_and_description
+    - semantic_headings
+    - descriptive_links
+    - image_alt_text
+    - crawlability_if_applicable
+  authenticated_or_internal_apps: "Apply only relevant discoverability and metadata checks."
+reporting:
+  never_claim_unperformed_checks: true
+  separate_verified_from_inferred: true

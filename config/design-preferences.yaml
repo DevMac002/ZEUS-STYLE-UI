@@ -1,0 +1,32 @@
+# Global visual defaults. Override per project when needed.
+strategy: hybrid
+creativity: high
+visual_quality: high
+brand_handling: preserve_existing_unless_redesign_requested
+references_handling: analyze_principles_then_adapt
+reference_profile:
+  status: pending_user_visuals
+  instruction: "When screenshots or accessible full links are provided, extract reusable visual principles and save a concise project-specific profile. Do not claim to have inspected inaccessible links."
+concept_count:
+  simple_or_constrained_task: 1
+  new_or_ambiguous_project: "usually 2-3"
+  complex_project: adaptive_to_scope
+avoid:
+  - generic_same-layout-for-every-project
+  - gratuitous_gradients
+  - decorative_cards_without_information_hierarchy
+  - animation_without_purpose
+  - fake_controls
+  - placeholder_content_that_hides_layout_problems
+must_consider:
+  - audience_and_domain
+  - brand_identity
+  - content_hierarchy
+  - typography
+  - color_and_contrast
+  - spacing_and_grid
+  - imagery_and_asset_rights
+  - motion_and_reduced_motion
+  - responsive_behavior
+  - interaction_states
+  - platform_conventions

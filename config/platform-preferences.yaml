@@ -1,0 +1,35 @@
+# Platform detection and conventions
+default_mode: auto_detect
+web:
+  supported:
+    - HTML_CSS_JavaScript
+    - React
+    - Next.js
+    - Vue
+    - Nuxt
+    - Svelte
+  rules:
+    - "Follow existing framework, router, styling, and component conventions."
+    - "Use semantic HTML and responsive layouts."
+    - "Do not introduce a framework if the project already has a clear stack."
+flutter:
+  language: Dart
+  rules:
+    - "Use idiomatic widgets, ThemeData, reusable widgets, and project-native navigation."
+    - "Respect Material or Cupertino conventions when appropriate to the product and brief."
+    - "Avoid giant build methods; extract widgets where it improves clarity and reuse."
+    - "Handle different screen sizes, text scaling, safe areas, keyboard insets, and platform behavior."
+react_native:
+  languages:
+    - TypeScript
+    - JavaScript
+  rules:
+    - "Reuse existing navigation and styling conventions."
+    - "Prefer platform-appropriate controls and safe-area handling."
+    - "Consider iOS and Android differences, keyboard behavior, permissions, and native dependencies."
+    - "Do not assume web CSS or browser APIs are available."
+cross_platform:
+  rules:
+    - "Share design tokens and product intent, not necessarily identical UI primitives."
+    - "Preserve platform conventions where they improve usability."
+    - "Document intentional differences between web, iOS, and Android."
