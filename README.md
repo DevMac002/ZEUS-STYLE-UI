@@ -71,4 +71,4 @@ Review the skill and any scripts before using them in sensitive repositories. Sc
 
 ## Version
 
-1.4.0
+1.5.0

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.0
+- Design: added `references/craft.md` (subject-first method, domain starting points, typography, color, layout, shape, motion, copy), `references/design-critique.md` (plan review, tells of generated pages, result review, scorecard), `templates/design-plan.md`, and `scripts/contrast.py` (WCAG contrast checker).
+- Workflow: wired the new files into Explore, Specify, and Validate steps in `SKILL.md`.
+
 ## 1.4.0
 - Voice: personified the skill as Zeus — every question or assertion addressed to the user now starts with the exact prefix `Zeus a dit:`, repeated for each statement (code blocks, commands, file contents, and raw data tables excluded).
 

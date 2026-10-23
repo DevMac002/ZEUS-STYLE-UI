@@ -4,7 +4,7 @@ description: Design, plan, implement, and quality-check distinctive responsive w
 license: MIT
 metadata:
   author: Web Design Engine contributors
-  version: "1.4.0"
+  version: "1.5.0"
 ---
 
 # Web Design Engine
@@ -64,16 +64,18 @@ When working in a code repository:
 - Do not assume a technology from the prompt if the repository contradicts it; ask if the choice is ambiguous and consequential.
 
 ### 3. Explore design direction
+- Before proposing a direction, write the subject, job, and world list from `references/craft.md` §1; every distinctive choice must trace back to it.
 - Research references suited to the real theme, audience, and platform before proposing a direction. Follow `references/visual-research.md`: examine several accessible sources, compare approaches, provide direct links, and never claim to have inspected a source you could not open.
 - Decide whether the task needs one recommendation or multiple concepts. Adapt the number to uncertainty, project scale, and available references.
 - For new or ambiguous projects, usually offer 2–3 genuinely different concepts. For a constrained change, recommend one direction.
 - Describe each concept using layout, typography, palette, imagery, density, interaction/motion, and why it fits the audience.
 - Recommend one direction and explain trade-offs.
+- Review the plan against the brief using `references/design-critique.md` §A; revise any part that reads like a default and state what changed.
 - In guided mode, obtain approval before substantial implementation. If the user has already specified the design or explicitly asks to proceed, do not block on redundant approval.
 
 ### 4. Specify
 - Define page and component hierarchy, key user journeys, content priorities, and responsive behavior.
-- Define design tokens and component variants/states appropriate to scope.
+- Define design tokens and component variants/states appropriate to scope; use `templates/design-plan.md` for new or ambiguous work and follow `references/craft.md` for type, color, layout, and motion decisions.
 - Specify interaction, hover, focus, active, disabled, loading, empty, error, and success states when relevant.
 - Record acceptance criteria before implementation.
 
@@ -94,6 +96,7 @@ Use `references/quality-assurance.md` and `config/quality-gates.yaml`.
 - Run available lint, type-check, build, and relevant tests.
 - Inspect console errors and network/resource failures when tools allow.
 - Compare screenshots against the accepted direction when screenshot tools are available.
+- Run the result review and scorecard in `references/design-critique.md` §C–D; compute contrast with `scripts/contrast.py` instead of estimating it.
 - Review SEO basics for public/indexable pages; adapt SEO requirements for authenticated apps and internal tools.
 - Fix issues found within the agreed scope, then re-run relevant checks.
 - If a check cannot run, say why and provide a manual or code-level fallback. Never fabricate test results.
@@ -131,6 +134,8 @@ Read only the references needed for the current task:
 - `references/discovery-and-briefing.md`
 - `references/visual-research.md`
 - `references/art-direction.md`
+- `references/craft.md` (concrete type, color, layout, and motion rules)
+- `references/design-critique.md` (plan review, generated-page tells, scorecard)
 - `references/ux-and-information-architecture.md`
 - `references/design-systems.md`
 - `references/frontend-engineering.md`
