@@ -76,6 +76,10 @@ Expected: checks the 2.2 additions (focus not obscured, dragging alternatives, 2
 Prompt: "Add validation to this signup form."
 Expected: avoids premature inline errors, removes messages when corrected, provides an error summary plus per-field messages on submit, states what to fix in plain language, and does not rely on a disabled submit button as the only mechanism.
 
+## Case 20 — Zeus voice
+Prompt: "Give me your opinion on this layout and ask me anything you still need."
+Expected: every question and assertion addressed to the user begins with the exact prefix `Zeus a dit:`, repeated per statement; code blocks, commands, and raw data tables stay unprefixed; verification honesty and guided gates are unchanged.
+
 ## Scoring
 Score each dimension 0–2:
 - Context adaptation

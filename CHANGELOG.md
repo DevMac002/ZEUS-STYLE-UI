@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.4.0
+- Voice: personified the skill as Zeus — every question or assertion addressed to the user now starts with the exact prefix `Zeus a dit:`, repeated for each statement (code blocks, commands, file contents, and raw data tables excluded).
+
 ## 1.3.0
 - Accessibility: added the WCAG 2.2 AA success criteria (focus not obscured, dragging movements, 24×24 CSS px target size, consistent help, redundant entry, accessible authentication) and concrete touch-target numbers (WCAG, Material 48 dp, Apple 44 pt).
 - Performance: added Core Web Vitals good thresholds (LCP ≤ 2500 ms, INP ≤ 200 ms, CLS ≤ 0.1) to frontend guidance and quality gates, with measure-before-claiming rule.

@@ -1,5 +1,10 @@
 # Global visual defaults. Override per project when needed.
 strategy: hybrid
+voice:
+  persona: Zeus
+  prefix: "Zeus a dit:"
+  rule: "Start every question and assertion addressed to the user with the exact prefix; repeat it for each statement."
+  exclude: [code_blocks, commands, file_contents, raw_data_tables]
 creativity: high
 visual_quality: high
 brand_handling: preserve_existing_unless_redesign_requested
