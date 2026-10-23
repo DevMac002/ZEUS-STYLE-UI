@@ -9,13 +9,15 @@ REQUIRED = [
     "SKILL.md", "README.md", "LICENSE",
     "config/defaults.yaml", "config/design-preferences.yaml", "config/quality-gates.yaml", "config/platform-preferences.yaml",
     "references/discovery-and-briefing.md", "references/art-direction.md",
+    "references/visual-research.md", "references/continuous-learning.md",
     "references/ux-and-information-architecture.md", "references/design-systems.md",
     "references/frontend-engineering.md", "references/accessibility.md",
     "references/responsive-design.md", "references/quality-assurance.md", "references/mobile-engineering.md", "references/cross-platform-design.md",
     "workflows/new-project.md", "workflows/existing-project.md",
     "workflows/redesign.md", "workflows/component-only.md", "workflows/mobile-app.md", "workflows/cross-platform-product.md",
     "templates/design-brief.md", "templates/design-direction.md",
-    "templates/quality-report.md", "tests/test-cases.md", "tests/expected-behaviors.md",
+    "templates/quality-report.md", "templates/session-report.md",
+    "tests/test-cases.md", "tests/expected-behaviors.md",
 ]
 
 errors = []

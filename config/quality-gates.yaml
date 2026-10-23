@@ -18,6 +18,11 @@ performance:
     - reasonable_image_sizes
     - avoid_unnecessary_rerenders_or_work
     - inspect_large_assets_when_tools_allow
+  core_web_vitals_good_thresholds:
+    lcp_ms: 2500
+    inp_ms: 200
+    cls: 0.1
+    note: "75th percentile targets from web.dev; measure before claiming."
 visual_consistency:
   required: true
   checks:

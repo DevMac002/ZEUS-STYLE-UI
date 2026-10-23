@@ -6,6 +6,7 @@ A vendor-neutral Agent Skill for context-sensitive web and mobile design, UX, fr
 
 - Understands the project and audience before designing.
 - Uses a hybrid design strategy: context + brand + references + creative exploration.
+- Researches visual references systematically (theme-specific sources, 5–10 comparisons, direct links, honest reporting).
 - Adapts the number of art directions to project ambiguity and scope.
 - Detects the existing stack instead of imposing one.
 - Supports HTML/CSS/JavaScript, React, Next.js, Vue, Nuxt, Svelte, Flutter, and React Native.
@@ -13,15 +14,16 @@ A vendor-neutral Agent Skill for context-sensitive web and mobile design, UX, fr
 - Works in guided mode with approval gates for consequential decisions.
 - Supports analysis, concepts, design-system work, implementation, and test reporting.
 - Encourages responsive behavior, accessibility, performance, visual consistency, tests, and relevant SEO.
+- Feeds validated learnings back into the skill with a strict separation of universal, platform, and project knowledge.
 - Reports what was actually verified versus what could not be tested.
 
 ## Package structure
 
 - `SKILL.md`: core instructions and workflow.
 - `config/`: editable default behavior, platform preferences, visual preferences, and quality gates.
-- `references/`: focused domain guidance loaded as needed.
+- `references/`: focused domain guidance loaded as needed, including visual research and continuous learning.
 - `workflows/`: task-specific procedures.
-- `templates/`: optional project artifacts.
+- `templates/`: optional project artifacts, including a session report.
 - `scripts/`: optional validation helpers.
 - `tests/`: manual acceptance scenarios.
 
@@ -69,4 +71,4 @@ Review the skill and any scripts before using them in sensitive repositories. Sc
 
 ## Version
 
-1.0.0
+1.3.0

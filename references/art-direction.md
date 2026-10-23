@@ -35,6 +35,16 @@ Avoid repeating the same hero, floating gradient blobs, glassmorphism, rounded c
 
 When given screenshots or URLs, identify transferable principles: spacing, hierarchy, layout, typography, color relationships, content density, and interactions. Separate observed facts from guesses. Respect trademarks, copyright, licensing, and asset provenance; use references as guidance rather than assuming permission to reproduce proprietary assets.
 
+## Observed trends vs. durable principles
+
+Observed in current galleries and articles (treat as optional inspiration, never as universal rules):
+- Bold serif display type for headlines; restrained palettes of two or three colors; generous whitespace anchored to a visible content grid; asymmetric or broken-grid compositions; kinetic/variable-font typography; motion that emphasizes hierarchy.
+
+Durable principles (safe defaults regardless of fashion):
+- Hierarchy, readability, contrast, consistency, feedback, accessibility, performance, and content-first composition.
+
+A trend earns its place only when it fits the audience, brand, and task. Record which trends were considered and why one was accepted or rejected.
+
 ## Visual acceptance
 
 Define what success looks like before implementation: hierarchy, readability, brand fit, responsive composition, component consistency, and relevant interaction states.

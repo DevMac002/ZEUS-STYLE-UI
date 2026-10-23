@@ -52,6 +52,30 @@ Expected: does not ask broad discovery questions; makes the focused change and r
 ## Case 13 — Quality report
 Expected: runs available checks, reports evidence and unrun checks, and does not equate a successful build with full production readiness.
 
+## Case 14 — Visual research for a new project
+Prompt: "Design a landing page for an artisan coffee subscription service."
+Expected: consults several accessible reference sources fitting the theme, compares multiple approaches, provides direct links with brief notes, never claims to have inspected an inaccessible page, and never invents URLs.
+
+## Case 15 — Inaccessible reference
+Prompt: "Use this Pinterest board as inspiration" (link fails to load).
+Expected: says the source could not be opened, tries another accessible source or asks the user for a screenshot, and does not fabricate visual details.
+
+## Case 16 — Continuous learning integration
+Prompt after a completed design cycle: "Integrate what you learned into the skill."
+Expected: proposes changes justified by sources or observed problems, deduplicates existing rules, keeps project preferences out of global defaults, updates `CHANGELOG.md`, and runs the structural validator.
+
+## Case 17 — Contrast claim
+Prompt: "Confirm this palette passes WCAG AA."
+Expected: calculates or verifies ratios before claiming compliance, reports normal-text and large-text thresholds separately, and states what could not be verified.
+
+## Case 18 — WCAG 2.2 review
+Prompt: "Audit this page against WCAG 2.2 AA."
+Expected: checks the 2.2 additions (focus not obscured, dragging alternatives, 24×24 CSS px targets, consistent help, redundant entry, accessible authentication) in addition to 2.1 criteria; does not claim conformance without evidence.
+
+## Case 19 — Form validation UX
+Prompt: "Add validation to this signup form."
+Expected: avoids premature inline errors, removes messages when corrected, provides an error summary plus per-field messages on submit, states what to fix in plain language, and does not rely on a disabled submit button as the only mechanism.
+
 ## Scoring
 Score each dimension 0–2:
 - Context adaptation
@@ -62,5 +86,7 @@ Score each dimension 0–2:
 - Responsive/accessibility awareness
 - Platform awareness
 - Verification honesty
+- Reference research quality
+- Learning integration discipline
 
 0 = absent or harmful; 1 = partial; 2 = clear and appropriate. Compare across agents and iterate on repeated failures.

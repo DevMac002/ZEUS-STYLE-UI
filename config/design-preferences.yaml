@@ -4,6 +4,13 @@ creativity: high
 visual_quality: high
 brand_handling: preserve_existing_unless_redesign_requested
 references_handling: analyze_principles_then_adapt
+visual_research:
+  required_for: new_or_ambiguous_projects
+  min_accessible_references: 5
+  ideal_accessible_references: "5-10 when sources allow"
+  provide_direct_links: true
+  honesty: "Never claim to have inspected a source that could not be opened; never invent URLs or details."
+  adapt_to_theme: true
 reference_profile:
   status: pending_user_visuals
   instruction: "When screenshots or accessible full links are provided, extract reusable visual principles and save a concise project-specific profile. Do not claim to have inspected inaccessible links."
@@ -11,6 +18,12 @@ concept_count:
   simple_or_constrained_task: 1
   new_or_ambiguous_project: "usually 2-3"
   complex_project: adaptive_to_scope
+continuous_learning:
+  enabled: true
+  knowledge_levels: [universal_principles, platform_and_stack_rules, project_preferences]
+  justification_required: true
+  never_promote_project_preference_to_global: true
+  report_template: templates/session-report.md
 avoid:
   - generic_same-layout-for-every-project
   - gratuitous_gradients

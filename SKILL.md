@@ -4,7 +4,7 @@ description: Design, plan, implement, and quality-check distinctive responsive w
 license: MIT
 metadata:
   author: Web Design Engine contributors
-  version: "1.1.0"
+  version: "1.3.0"
 ---
 
 # Web Design Engine
@@ -55,6 +55,7 @@ When working in a code repository:
 - Do not assume a technology from the prompt if the repository contradicts it; ask if the choice is ambiguous and consequential.
 
 ### 3. Explore design direction
+- Research references suited to the real theme, audience, and platform before proposing a direction. Follow `references/visual-research.md`: examine several accessible sources, compare approaches, provide direct links, and never claim to have inspected a source you could not open.
 - Decide whether the task needs one recommendation or multiple concepts. Adapt the number to uncertainty, project scale, and available references.
 - For new or ambiguous projects, usually offer 2–3 genuinely different concepts. For a constrained change, recommend one direction.
 - Describe each concept using layout, typography, palette, imagery, density, interaction/motion, and why it fits the audience.
@@ -97,6 +98,13 @@ Summarize:
 - Remaining limitations, assumptions, or follow-up work.
 Create separate project documents only when they are useful or requested. Do not litter a small code change with unnecessary documentation.
 
+### 8. Learn
+When a session produced validated, reusable discoveries, feed them back into this skill following `references/continuous-learning.md`:
+- Separate universal principles, platform/stack rules, and project preferences; never promote a project preference to a global default.
+- Justify each improvement with a source, an observed problem, a test, or a verifiable experience; deduplicate before adding.
+- Update the appropriate files (`references/`, `config/`, `workflows/`, `tests/`, `CHANGELOG.md`) and run `scripts/validate_skill.py` when changed.
+- When a full cycle report is useful or requested, use `templates/session-report.md`.
+
 ## Decision gates in guided mode
 
 Request approval before:
@@ -112,6 +120,7 @@ Do not request approval for routine implementation details within an approved di
 
 Read only the references needed for the current task:
 - `references/discovery-and-briefing.md`
+- `references/visual-research.md`
 - `references/art-direction.md`
 - `references/ux-and-information-architecture.md`
 - `references/design-systems.md`
@@ -121,6 +130,7 @@ Read only the references needed for the current task:
 - `references/quality-assurance.md`
 - `references/mobile-engineering.md`
 - `references/cross-platform-design.md`
+- `references/continuous-learning.md`
 
 Choose a workflow when useful:
 - `workflows/new-project.md`
