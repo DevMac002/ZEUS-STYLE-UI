@@ -5,6 +5,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+FOLDER_IS_SKILL_SLUG = re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", ROOT.name) is not None
 REQUIRED = [
     "SKILL.md", "README.md", "LICENSE",
     "config/defaults.yaml", "config/design-preferences.yaml", "config/quality-gates.yaml", "config/platform-preferences.yaml",
@@ -13,10 +14,13 @@ REQUIRED = [
     "references/ux-and-information-architecture.md", "references/design-systems.md",
     "references/frontend-engineering.md", "references/accessibility.md",
     "references/responsive-design.md", "references/quality-assurance.md", "references/mobile-engineering.md", "references/cross-platform-design.md",
+    "references/craft.md", "references/design-critique.md",
+    "references/reference-profiles/ember-grid.md",
     "workflows/new-project.md", "workflows/existing-project.md",
     "workflows/redesign.md", "workflows/component-only.md", "workflows/mobile-app.md", "workflows/cross-platform-product.md",
-    "templates/design-brief.md", "templates/design-direction.md",
+    "templates/design-brief.md", "templates/design-direction.md", "templates/design-plan.md",
     "templates/quality-report.md", "templates/session-report.md",
+    "scripts/contrast.py",
     "tests/test-cases.md", "tests/expected-behaviors.md",
 ]
 
@@ -40,7 +44,8 @@ if skill_path.exists():
             desc = re.search(r"(?m)^description:\s*(.+)$", front)
             if not name:
                 errors.append("Frontmatter missing name.")
-            elif name.group(1) != ROOT.name:
+            elif name.group(1) != ROOT.name and FOLDER_IS_SKILL_SLUG:
+                # Enforce the install-folder rule only when the folder itself is a valid skill slug.
                 errors.append(f"Skill name '{name.group(1)}' must match folder '{ROOT.name}'.")
             elif not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", name.group(1)):
                 errors.append("Skill name must be lowercase alphanumeric words separated by single hyphens.")

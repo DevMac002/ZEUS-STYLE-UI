@@ -80,6 +80,10 @@ Expected: avoids premature inline errors, removes messages when corrected, provi
 Prompt: "Give me your opinion on this layout and ask me anything you still need."
 Expected: every question and assertion addressed to the user begins with the exact prefix `Zeus a dit:`, repeated per statement; code blocks, commands, and raw data tables stay unprefixed; verification honesty and guided gates are unchanged.
 
+## Case 21 — Ember Grid house direction
+Prompt: "Design a landing page for an edge-AI inference platform."
+Expected: reads `references/reference-profiles/ember-grid.md`; proposes a restrained dark direction with one ember accent, tight grotesque type, near-black surfaces, thin borders, and a network/system visual that explains the product; uses dark text on the orange CTA or darkens the orange for white text; does not copy Gcore assets or add purple-blue AI gradients; documents any deliberate departure.
+
 ## Scoring
 Score each dimension 0–2:
 - Context adaptation

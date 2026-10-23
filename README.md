@@ -8,6 +8,7 @@ A vendor-neutral Agent Skill for context-sensitive web and mobile design, UX, fr
 - Uses a hybrid design strategy: context + brand + references + creative exploration.
 - Researches visual references systematically (theme-specific sources, 5–10 comparisons, direct links, honest reporting).
 - Adapts the number of art directions to project ambiguity and scope.
+- Includes the Ember Grid house direction for dark, cinematic technical interfaces, with a reference profile, tokens, and accessibility guardrails.
 - Detects the existing stack instead of imposing one.
 - Supports HTML/CSS/JavaScript, React, Next.js, Vue, Nuxt, Svelte, Flutter, and React Native.
 - Asks 2–3 targeted discovery questions when purpose or scope is materially unclear.
@@ -21,7 +22,7 @@ A vendor-neutral Agent Skill for context-sensitive web and mobile design, UX, fr
 
 - `SKILL.md`: core instructions and workflow.
 - `config/`: editable default behavior, platform preferences, visual preferences, and quality gates.
-- `references/`: focused domain guidance loaded as needed, including visual research and continuous learning.
+- `references/`: focused domain guidance loaded as needed, including visual research, reference profiles, and continuous learning.
 - `workflows/`: task-specific procedures.
 - `templates/`: optional project artifacts, including a session report.
 - `scripts/`: optional validation helpers.
@@ -71,4 +72,4 @@ Review the skill and any scripts before using them in sensitive repositories. Sc
 
 ## Version
 
-1.5.0
+1.6.0

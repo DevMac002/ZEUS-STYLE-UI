@@ -35,6 +35,19 @@ Avoid repeating the same hero, floating gradient blobs, glassmorphism, rounded c
 
 When given screenshots or URLs, identify transferable principles: spacing, hierarchy, layout, typography, color relationships, content density, and interactions. Separate observed facts from guesses. Respect trademarks, copyright, licensing, and asset provenance; use references as guidance rather than assuming permission to reproduce proprietary assets.
 
+## House direction — Ember Grid
+
+The user's default visual territory is **Ember Grid**: cinematic dark technical interfaces lit by a single warm accent, with tight grotesque type, near-black surfaces, thin light borders, and one signature network or system visual. Read `references/reference-profiles/ember-grid.md` before proposing a direction for AI, edge/cloud, developer, data, security, or technical B2B products.
+
+Use it as a starting point, not a template:
+
+- Adapt the relationships (single accent, restrained glass, strong type, negative space) to the subject.
+- Keep the brand when one exists; do not replace an established identity with the house palette.
+- If the subject, audience, or accessibility needs point elsewhere, choose the better direction and state why.
+- Never copy Gcore's trademarks, copy, layout, or assets. The profile records principles, not permission.
+
+For non-technical brands, the same discipline can be inverted into a warm light palette or reduced to layout and typography only.
+
 ## Observed trends vs. durable principles
 
 Observed in current galleries and articles (treat as optional inspiration, never as universal rules):

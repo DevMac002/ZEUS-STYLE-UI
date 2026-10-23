@@ -1,10 +1,10 @@
 ---
 name: web-design-engine
-description: Design, plan, implement, and quality-check distinctive responsive websites and web applications. Use for new web projects, redesigns, UI components, design systems, frontend implementation, visual polish, and interface audits.
+description: Design, plan, implement, and quality-check distinctive responsive websites and web applications. Use for new web projects, redesigns, UI components, design systems, frontend implementation, visual polish, and interface audits. Includes the Ember Grid house direction for dark technical interfaces when it fits.
 license: MIT
 metadata:
   author: Web Design Engine contributors
-  version: "1.5.0"
+  version: "1.6.0"
 ---
 
 # Web Design Engine
@@ -66,6 +66,7 @@ When working in a code repository:
 ### 3. Explore design direction
 - Before proposing a direction, write the subject, job, and world list from `references/craft.md` §1; every distinctive choice must trace back to it.
 - Research references suited to the real theme, audience, and platform before proposing a direction. Follow `references/visual-research.md`: examine several accessible sources, compare approaches, provide direct links, and never claim to have inspected a source you could not open.
+- For technical, AI, infrastructure, developer, data, or security products, read `references/reference-profiles/ember-grid.md` and use it as the house starting point unless the brief, brand, or audience conflicts. State any deliberate departure.
 - Decide whether the task needs one recommendation or multiple concepts. Adapt the number to uncertainty, project scale, and available references.
 - For new or ambiguous projects, usually offer 2–3 genuinely different concepts. For a constrained change, recommend one direction.
 - Describe each concept using layout, typography, palette, imagery, density, interaction/motion, and why it fits the audience.
@@ -134,6 +135,7 @@ Read only the references needed for the current task:
 - `references/discovery-and-briefing.md`
 - `references/visual-research.md`
 - `references/art-direction.md`
+- `references/reference-profiles/ember-grid.md` (house visual direction for technical products)
 - `references/craft.md` (concrete type, color, layout, and motion rules)
 - `references/design-critique.md` (plan review, generated-page tells, scorecard)
 - `references/ux-and-information-architecture.md`

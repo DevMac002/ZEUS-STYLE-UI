@@ -42,6 +42,11 @@ Fill this before building. Keep it under one page. Revise after the plan review 
 - What stays quiet:
 - Trends considered, accepted or rejected, and why:
 
+## House direction fit (Ember Grid)
+- Relationships used (single accent, type, surfaces, network/system visual):
+- Deliberate departures and why:
+- If not used, why another direction fits the subject better:
+
 ## Plan review (from design-critique.md §A)
 - Which parts looked like defaults:
 - What changed and why:

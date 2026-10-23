@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.6.0
+- Design: added `references/reference-profiles/ember-grid.md`, the Ember Grid house direction derived from the supplied Pinterest/Gcore "Inference at the Edge" reference: warm near-black palette, single ember accent, tight grotesque type, thin glass surfaces, network/system hero, motion rules, copy tone, accessibility guardrails, and a do/don't checklist.
+- Config: activated the reference profile and added a `house_direction` entry for technical, AI, infrastructure, developer, data, security, and B2B projects.
+- Workflow: wired the profile into `SKILL.md` exploration and progressive references, `references/art-direction.md`, and `templates/design-plan.md`.
+- Validation: expanded `scripts/validate_skill.py` to cover the new profile plus the 1.5.0 craft, critique, design-plan, and contrast files.
+- Tests: added an Ember Grid acceptance case and regression guardrail.
+
 ## 1.5.0
 - Design: added `references/craft.md` (subject-first method, domain starting points, typography, color, layout, shape, motion, copy), `references/design-critique.md` (plan review, tells of generated pages, result review, scorecard), `templates/design-plan.md`, and `scripts/contrast.py` (WCAG contrast checker).
 - Workflow: wired the new files into Explore, Specify, and Validate steps in `SKILL.md`.

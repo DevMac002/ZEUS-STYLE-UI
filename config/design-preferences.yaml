@@ -17,8 +17,27 @@ visual_research:
   honesty: "Never claim to have inspected a source that could not be opened; never invent URLs or details."
   adapt_to_theme: true
 reference_profile:
-  status: pending_user_visuals
+  status: active
+  id: ember-grid
+  path: references/reference-profiles/ember-grid.md
+  source: "https://pin.it/6U385hiZ6"
+  canonical_source: "https://it.pinterest.com/pin/43136108928305399/"
+  observed: "Gcore 'Inference at the Edge' dark AI-infrastructure landing page"
   instruction: "When screenshots or accessible full links are provided, extract reusable visual principles and save a concise project-specific profile. Do not claim to have inspected inaccessible links."
+house_direction:
+  id: ember-grid
+  enabled: true
+  path: references/reference-profiles/ember-grid.md
+  default_for:
+    - technical
+    - ai
+    - infrastructure
+    - developer_tools
+    - data_platforms
+    - security
+    - technical_b2b
+  rule: "Start from Ember Grid when the subject fits. Adapt its relationships, never clone its assets or copy. If the brand, audience, or accessibility needs conflict, choose another direction and say why."
+  required_for_new_technical_projects: true
 concept_count:
   simple_or_constrained_task: 1
   new_or_ambiguous_project: "usually 2-3"
