@@ -26,7 +26,7 @@ For a new, open-ended brief, consider several genuinely different approaches int
 - **Creative experimentation:** unusual grids, expressive typography, vivid contrast, organic forms, or novel interactions while keeping the task understandable.
 - **Purpose-led modes:** product-focused commerce, functional dashboards, digital brutalism, luxury editorial, or technical minimalism when the subject calls for them.
 
-Combine compatible influences with a clear reason. Do not add visual effects just to make a direction seem distinctive.
+For motion-led experiences, also read [creative-frontier.md](creative-frontier.md): consider three interaction concepts with distinct mechanisms internally, then select the one that serves the product. Combine compatible influences with a clear reason. Do not add visual effects just to make a direction seem distinctive.
 
 Choose the strongest fitting direction and explain its thesis briefly. Recommend one direction by default; present alternatives only when the user requests them or comparing them would materially help the decision. Preserve approval gates for consequential decisions when the user has not already settled them.
 

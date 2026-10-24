@@ -18,6 +18,7 @@ visual_signature:
   source: user_supplied_screenshots
   composition_preference: "Blend both references: use the very clean product showcase as the base, then add fluid shapes or layered panels selectively when they fit the theme."
   palette_rule: "Choose colors for the project theme and brand. Blue, turquoise, and coral are examples from the references, not fixed preferences."
+  creative_approach: "Look for a distinctive interaction that fits the project theme; use immersion only when it improves exploration."
   core:
     - light, airy composition with generous white space
     - product or subject shown large and given visual priority

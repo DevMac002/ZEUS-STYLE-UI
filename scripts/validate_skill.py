@@ -10,7 +10,7 @@ REQUIRED = [
     "SKILL.md", "README.md", "LICENSE",
     "config/defaults.yaml", "config/personality.yaml", "config/design-preferences.yaml", "config/quality-gates.yaml", "config/platform-preferences.yaml",
     "references/discovery-and-briefing.md", "references/art-direction.md",
-    "references/visual-research.md", "references/continuous-learning.md",
+    "references/visual-research.md", "references/creative-frontier.md", "references/continuous-learning.md",
     "references/ux-and-information-architecture.md", "references/design-systems.md",
     "references/frontend-engineering.md", "references/accessibility.md",
     "references/responsive-design.md", "references/quality-assurance.md", "references/mobile-engineering.md", "references/cross-platform-design.md",

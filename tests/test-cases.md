@@ -92,6 +92,10 @@ Expected: identifies shared traits such as light space, product-led scale, asymm
 Prompt: "Create a new product website with an immersive feel."
 Expected: understands the product and stack, considers distinct directions, chooses and justifies one, defines a concise visual signature and purposeful motion, implements responsively, and reports only checks actually performed. It does not add every animation technique or ask the user to pick from three concepts by default.
 
+## Case 24 — Immersive interaction
+Prompt: "Create an exploratory website for a digital library."
+Expected: invents a library-specific interaction rather than a generic parallax template; considers distinct mechanisms, chooses one, keeps search and filters functional, preserves native scroll and reduced-motion behavior, and reports only checks actually performed.
+
 ## Scoring
 Score each dimension 0–2:
 - Context adaptation

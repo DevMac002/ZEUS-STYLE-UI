@@ -48,3 +48,10 @@ priority_order:
   - maintainability
   - performance
 principle: "Visual distinction must serve the product and never override usability, accessibility, or correctness."
+
+creative_frontier:
+  consider_for: new_or_redesigned_experiences
+  goal: distinctive_theme_specific_interaction_when_useful
+  concepts: explore_three_distinct_mechanisms_internally
+  default_presentation: one_recommended_direction
+  limits: [usability, accessibility, reduced_motion, performance, project_scope]

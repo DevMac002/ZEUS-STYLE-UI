@@ -17,7 +17,7 @@ The personality profile is based on your screenshots: light, spacious, product-l
 - SKILL.md: purpose, core behavior, and links to relevant material.
 - config/: personal identity and task defaults.
 - workflows/: optional paths for new projects, existing products, redesigns, components, mobile, and cross-platform work.
-- references/: detailed guidance loaded only when relevant, including the full art direction workflow.
+- references/: detailed guidance loaded only when relevant, including the art direction workflow and optional immersive interaction guidance.
 - references/reference-profiles/: reusable visual directions; Esteve visual signature is the personal default, with Ember Grid as an optional alternative.
 - templates/: optional briefs, plans, and reports.
 - scripts/: contrast calculator and structural validator.

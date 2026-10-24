@@ -25,7 +25,7 @@ Read [config/personality.yaml](config/personality.yaml) first. The visual profil
 
 ### New or open-ended design
 
-Understand the subject before choosing a style. Use [references/art-direction.md](references/art-direction.md) for the full direction-to-review process, and [references/craft.md](references/craft.md) for concrete visual decisions. Consult [references/visual-research.md](references/visual-research.md) when outside examples add useful context; report only what you actually inspected.
+Understand the subject before choosing a style. Use [references/art-direction.md](references/art-direction.md) for the full direction-to-review process, and [references/craft.md](references/craft.md) for concrete visual decisions. For motion-led or exploratory experiences, also read [references/creative-frontier.md](references/creative-frontier.md). Consult [references/visual-research.md](references/visual-research.md) when outside examples add useful context; report only what you actually inspected.
 
 Use the Esteve visual signature as the personal starting point for new directions when the project has no conflicting brand. Ember Grid in [references/reference-profiles/ember-grid.md](references/reference-profiles/ember-grid.md) is an optional darker technical direction, not the default. Follow the brief when neither fits.
 

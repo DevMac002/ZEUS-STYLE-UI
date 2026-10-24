@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.11.0
+- Added Creative Frontier guidance for theme-specific immersive interactions, scroll choreography, and experiential motion.
+- Routed new motion-led projects through the guide while keeping the creative process proportional to scope.
+- Added behavior expectations for functional controls, mobile alternatives, accessibility, reduced motion, and performance.
+
 ## 1.10.0
 - Integrated the supplied Art Direction Workflow into the art direction reference and linked it from the main skill.
 - Aligned new project, redesign, and mobile workflows around exploring directions internally and recommending one strong fit by default.
