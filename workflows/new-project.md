@@ -1,11 +1,9 @@
 # Workflow: new project
 
-1. Clarify the product goal, audience, core task, pages, constraints, and definition of done.
-2. Inspect supplied brand assets, reference links, repository, and stack if present.
-3. State material assumptions and ask only essential questions.
-4. Propose a context-appropriate number of art directions (usually 2–3 when ambiguity is high). Make the concepts meaningfully different.
-5. Recommend one direction and request approval in guided mode.
-6. Define page hierarchy, design tokens, components, responsive behavior, and acceptance criteria.
-7. Implement in the detected stack, preserving conventions.
-8. Run relevant engineering and visual checks available in the environment.
-9. Report changed files, tests, limitations, and remaining decisions.
+1. Understand the product, audience, primary job, content, brand, platform, constraints, and definition of done. Ask only questions that could change the result.
+2. Inspect supplied references and assets; inspect the repository and stack if one exists.
+3. Follow [references/art-direction.md](../references/art-direction.md): consider several directions internally, select and briefly justify the strongest fit, then define a concise visual signature.
+4. Recommend one direction by default. Present alternatives only if requested or if comparison would materially help; keep consequential approval gates.
+5. Define page and interaction hierarchy, responsive behavior, tokens, components, and acceptance criteria at a depth appropriate to scope.
+6. Implement in the detected stack and preserve project conventions.
+7. Inspect the actual result and run relevant checks when available; report what was and was not verified.

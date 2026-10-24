@@ -8,14 +8,14 @@ ROOT = Path(__file__).resolve().parents[1]
 FOLDER_IS_SKILL_SLUG = re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", ROOT.name) is not None
 REQUIRED = [
     "SKILL.md", "README.md", "LICENSE",
-    "config/defaults.yaml", "config/design-preferences.yaml", "config/quality-gates.yaml", "config/platform-preferences.yaml",
+    "config/defaults.yaml", "config/personality.yaml", "config/design-preferences.yaml", "config/quality-gates.yaml", "config/platform-preferences.yaml",
     "references/discovery-and-briefing.md", "references/art-direction.md",
     "references/visual-research.md", "references/continuous-learning.md",
     "references/ux-and-information-architecture.md", "references/design-systems.md",
     "references/frontend-engineering.md", "references/accessibility.md",
     "references/responsive-design.md", "references/quality-assurance.md", "references/mobile-engineering.md", "references/cross-platform-design.md",
     "references/craft.md", "references/design-critique.md",
-    "references/reference-profiles/ember-grid.md",
+    "references/reference-profiles/ember-grid.md", "references/reference-profiles/esteve-visual-signature.md",
     "workflows/new-project.md", "workflows/existing-project.md",
     "workflows/redesign.md", "workflows/component-only.md", "workflows/mobile-app.md", "workflows/cross-platform-product.md",
     "templates/design-brief.md", "templates/design-direction.md", "templates/design-plan.md",

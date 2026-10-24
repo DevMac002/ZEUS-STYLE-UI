@@ -1,6 +1,6 @@
 # Continuous learning and design intelligence
 
-After research, analysis, implementation, and validation, durable discoveries must be fed back into this skill so the next session starts smarter. Apply this after each meaningful project or review cycle.
+When the user asks to integrate a lesson, or repeated validated experience reveals a reusable improvement, update this skill so the next session starts smarter. Do not edit the skill after every project by default.
 
 ## Three knowledge levels
 
@@ -48,4 +48,4 @@ When files are accessible, update the appropriate ones:
 
 **Final objective:** make Web Design Engine an evolving skill that can research, understand, select, adapt, create, implement, and verify professional interfaces for the real project theme — without sacrificing originality, accessibility, code quality, or maintainability.
 
-End each cycle with a session report; see `templates/session-report.md`.
+For a substantial learning update, use `templates/session-report.md` when a report would help or the user requests one.

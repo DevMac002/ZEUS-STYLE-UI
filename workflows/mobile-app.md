@@ -1,12 +1,10 @@
 # Workflow: mobile app
 
-1. Confirm the user problem, primary flows, audience, target platforms, and device constraints.
-2. Ask 2–3 targeted questions if purpose or scope is materially unclear; ask more only when necessary.
-3. Inspect Flutter or React Native project structure, navigation, state management, theme, dependencies, and tests.
-4. Define the app information architecture, navigation, key screens, states, and platform-specific differences.
-5. Present adaptive art direction concepts when the design is open-ended; request approval before substantial implementation.
-6. Map semantic design tokens to the project's native theming conventions.
-7. Implement accessible, responsive-to-device-size screens and functional interactions.
-8. Check keyboard behavior, safe areas, text scaling, loading/error/empty states, and platform conventions.
-9. Run available analyzer, lint, type-check, tests, and builds. Do not claim device or simulator testing unless performed.
-10. Report changed files, checks, platform-specific caveats, and remaining work.
+1. Establish the user problem, audience, primary flows, target platforms, brand, and device constraints.
+2. Ask concise questions only when an unknown could change the design or architecture.
+3. Inspect the Flutter or React Native structure, navigation, state, theme, dependencies, and tests.
+4. Follow [references/art-direction.md](../references/art-direction.md) to choose a theme-appropriate visual direction, then translate it into native layouts, controls, and tokens. Explore options internally and recommend one strong direction by default.
+5. Define key screens, navigation, states, responsive-to-device-size behavior, and platform differences.
+6. Implement functional screens using project conventions; keep safe areas, text scaling, keyboard, loading/error/empty states, and touch ergonomics in mind.
+7. Check device or simulator behavior only when actually available; run relevant analyzers, lint, types, tests, or builds and report results honestly.
+8. Summarize changed files, decisions, platform differences, checks, and remaining work.

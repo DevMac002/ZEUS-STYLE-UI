@@ -42,10 +42,10 @@ Fill this before building. Keep it under one page. Revise after the plan review 
 - What stays quiet:
 - Trends considered, accepted or rejected, and why:
 
-## House direction fit (Ember Grid)
-- Relationships used (single accent, type, surfaces, network/system visual):
-- Deliberate departures and why:
-- If not used, why another direction fits the subject better:
+## Personal style adaptation
+- Which principles from Esteve visual signature fit this project:
+- What changes to fit the project theme and brand:
+- If another direction fits better, why:
 
 ## Plan review (from design-critique.md §A)
 - Which parts looked like defaults:

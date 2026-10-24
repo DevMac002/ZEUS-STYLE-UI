@@ -1,6 +1,6 @@
 # Editable defaults. Read as plain text if YAML parsing is unavailable.
 workflow: guided
-design_strategy: hybrid
+design_strategy: context_first
 platform_detection: auto
 supported_platforms:
   web:
@@ -24,7 +24,7 @@ design_system: reuse_or_create
 dependency_policy: minimal
 art_direction_count: adaptive
 discovery:
-  initial_questions: 2-3_if_materially_ambiguous
+  initial_questions: usually_1-3_if_materially_ambiguous
   ask_more_if: "Subject, object, purpose, audience, or constraints remain unclear enough to change the solution."
   avoid_questions_when_brief_is_clear: true
 approval_required_for:
@@ -40,10 +40,11 @@ deliverables:
   implementation: when_requested
   tests_report: always_report_actual_checks
 priority_order:
+  - usability
   - visual_quality
+  - project_fit
   - code_quality
-  - contextual_adaptability
-  - execution_speed
-  - user_experience
-  - creativity
+  - accessibility
+  - maintainability
+  - performance
 principle: "Visual distinction must serve the product and never override usability, accessibility, or correctness."

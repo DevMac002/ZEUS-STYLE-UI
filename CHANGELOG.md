@@ -1,5 +1,32 @@
 # Changelog
 
+## 1.10.0
+- Integrated the supplied Art Direction Workflow into the art direction reference and linked it from the main skill.
+- Aligned new project, redesign, and mobile workflows around exploring directions internally and recommending one strong fit by default.
+- Expanded design planning to cover project signature, scroll/motion intent, design tokens, implementation, and honest review.
+- Removed stale directions that treated Ember Grid or a menu of concepts as the default.
+
+## 1.9.0
+- Added a personal visual profile based on the user's supplied product and coastal activity screenshots.
+- Made the personal profile the default starting point for new design directions; Ember Grid is now an optional darker technical direction.
+- Added guidance for adapting shared visual principles to new themes without copying the source compositions.
+- Added a behavior case for using personal screenshots across a different project theme.
+
+## 1.8.0
+- Reorganized SKILL.md as a concise entry point with task-based routing to focused workflows and references.
+- Added config/personality.yaml as an editable home for Zeus's voice, visual signature, and working style, inferred from the existing skill.
+- Made Ember Grid a contextual signature for suitable technical products rather than a required house style.
+- Scaled discovery, concepts, research, validation, and learning to task scope; avoided mandatory research for focused changes.
+- Updated the README and behavioral expectations to explain the new structure and customization points.
+
+## 1.7.1
+- Voice: removed the `Zeus a dit:` prefix rule entirely — Core instructions, `config/design-preferences.yaml` (persona/prefix set to `none`), and both test files updated. Speaking stays direct; history entries below record when the prefix was added and are kept as-is.
+
+## 1.7.0
+- Assets: added the real-assets rule — fetch actual assets from the internet when the project requires imagery, icons, video, audio, brand logos, or licensed fonts, instead of defaulting to placeholders.
+- Added `references/assets.md`: sourcing order (project assets → user-supplied → free-license sources → generated on approval → declared placeholder), curated source table (Google Fonts, Unsplash, Pexels, Pixabay, Iconify, Simple Icons, unDraw, Coverr, Hero Patterns), per-asset license verification, attribution recording, local download/rename/optimization rules, CLS/alt/lazy integration checks, network-failure fallback, paid-stock scraping ban, and an acceptance checklist.
+- Workflow: wired the rule into Core rules (rule 13), the Implement step, and progressive references.
+
 ## 1.6.0
 - Design: added `references/reference-profiles/ember-grid.md`, the Ember Grid house direction derived from the supplied Pinterest/Gcore "Inference at the Edge" reference: warm near-black palette, single ember accent, tight grotesque type, thin glass surfaces, network/system hero, motion rules, copy tone, accessibility guardrails, and a do/don't checklist.
 - Config: activated the reference profile and added a `house_direction` entry for technical, AI, infrastructure, developer, data, security, and B2B projects.

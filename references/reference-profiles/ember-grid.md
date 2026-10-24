@@ -1,6 +1,6 @@
 # Reference profile — Ember Grid
 
-**Status:** active house direction
+**Status:** optional dark technical direction; secondary to the personal light/editorial profile
 **Source:** supplied Pinterest pin `https://pin.it/6U385hiZ6` (canonical: `https://it.pinterest.com/pin/43136108928305399/`), a screenshot of Gcore's "Inference at the Edge" landing page. Judge the screenshot, not the current Gcore site; the live page may differ.
 **Use for:** AI infrastructure, edge/cloud, developer tools, data platforms, security, and technical B2B products. Adapt it for adjacent subjects when the brand and audience allow.
 **Not:** a template, a license to reuse Gcore trademarks, copy, or assets, or a reason to ignore the brief.

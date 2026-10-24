@@ -41,7 +41,7 @@ Select sources by relevance to the current project. This list is a starting poin
 ## Research rules
 
 1. Search for examples matching the current theme, platform, and product function.
-2. Examine several different references — ideally 5–10 when accessible sources allow.
+2. For a new or open-ended direction, examine a few contrasting references when they add value; go deeper only when the task or user calls for it. For focused changes, use supplied examples or project conventions without forced research.
 3. Prefer real interfaces, documented design systems, and recognized projects over mockup-only shots.
 4. Compare multiple visual approaches; do not default to the first trend found.
 5. Analyze composition, grids, spacing, color, typography, interactions, animation, navigation, hierarchy, and component states.

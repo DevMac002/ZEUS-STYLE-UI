@@ -1,60 +1,50 @@
-# Global visual defaults. Override per project when needed.
-strategy: hybrid
-voice:
-  persona: Zeus
-  prefix: "Zeus a dit:"
-  rule: "Start every question and assertion addressed to the user with the exact prefix; repeat it for each statement."
-  exclude: [code_blocks, commands, file_contents, raw_data_tables]
+# Visual defaults. Personal identity and taste live in config/personality.yaml.
+strategy: context_first
 creativity: high
 visual_quality: high
 brand_handling: preserve_existing_unless_redesign_requested
-references_handling: analyze_principles_then_adapt
+references_handling: analyze_then_adapt
+personal_reference_profile:
+  id: esteve-visual-signature
+  path: references/reference-profiles/esteve-visual-signature.md
+  source: user_supplied_screenshots
+  use_for: new_or_open_ended_directions_when_project_brand_does_not_conflict
+  rule: "Borrow the visual principles and adapt the palette, composition, and imagery to the actual subject."
+
 visual_research:
-  required_for: new_or_ambiguous_projects
-  min_accessible_references: 5
-  ideal_accessible_references: "5-10 when sources allow"
+  required_for: new_or_ambiguous_projects_when_useful
+  depth: a_few_relevant_references
   provide_direct_links: true
   honesty: "Never claim to have inspected a source that could not be opened; never invent URLs or details."
   adapt_to_theme: true
-reference_profile:
-  status: active
+
+alternate_reference_profile:
   id: ember-grid
   path: references/reference-profiles/ember-grid.md
-  source: "https://pin.it/6U385hiZ6"
-  canonical_source: "https://it.pinterest.com/pin/43136108928305399/"
-  observed: "Gcore 'Inference at the Edge' dark AI-infrastructure landing page"
-  instruction: "When screenshots or accessible full links are provided, extract reusable visual principles and save a concise project-specific profile. Do not claim to have inspected inaccessible links."
-house_direction:
-  id: ember-grid
-  enabled: true
-  path: references/reference-profiles/ember-grid.md
-  default_for:
-    - technical
-    - ai
-    - infrastructure
-    - developer_tools
-    - data_platforms
-    - security
-    - technical_b2b
-  rule: "Start from Ember Grid when the subject fits. Adapt its relationships, never clone its assets or copy. If the brand, audience, or accessibility needs conflict, choose another direction and say why."
-  required_for_new_technical_projects: true
+  use_when: "A darker technical direction fits the brief or the user asks for it."
+  rule: "This is an optional alternative, not the default personal style."
+
 concept_count:
   simple_or_constrained_task: 1
-  new_or_ambiguous_project: "usually 2-3"
+  new_or_ambiguous_project: adaptive
   complex_project: adaptive_to_scope
+
 continuous_learning:
   enabled: true
+  update_when: user_requests_or_repeated_verified_learning
   knowledge_levels: [universal_principles, platform_and_stack_rules, project_preferences]
   justification_required: true
   never_promote_project_preference_to_global: true
   report_template: templates/session-report.md
+
 avoid:
-  - generic_same-layout-for-every-project
+  - generic_same_layout_for_every_project
   - gratuitous_gradients
   - decorative_cards_without_information_hierarchy
   - animation_without_purpose
   - fake_controls
   - placeholder_content_that_hides_layout_problems
+
 must_consider:
   - audience_and_domain
   - brand_identity

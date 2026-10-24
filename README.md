@@ -1,75 +1,47 @@
-# Web Design Engine
+# Zeus — Web and product design
 
-A vendor-neutral Agent Skill for context-sensitive web and mobile design, UX, frontend implementation, design systems, and quality assurance.
+Zeus is a portable skill for designing and building context-aware web and mobile interfaces. It combines a concise workflow with focused references, practical templates, and optional validation helpers.
 
-## What it does
+## Start here
 
-- Understands the project and audience before designing.
-- Uses a hybrid design strategy: context + brand + references + creative exploration.
-- Researches visual references systematically (theme-specific sources, 5–10 comparisons, direct links, honest reporting).
-- Adapts the number of art directions to project ambiguity and scope.
-- Includes the Ember Grid house direction for dark, cinematic technical interfaces, with a reference profile, tokens, and accessibility guardrails.
-- Detects the existing stack instead of imposing one.
-- Supports HTML/CSS/JavaScript, React, Next.js, Vue, Nuxt, Svelte, Flutter, and React Native.
-- Asks 2–3 targeted discovery questions when purpose or scope is materially unclear.
-- Works in guided mode with approval gates for consequential decisions.
-- Supports analysis, concepts, design-system work, implementation, and test reporting.
-- Encourages responsive behavior, accessibility, performance, visual consistency, tests, and relevant SEO.
-- Feeds validated learnings back into the skill with a strict separation of universal, platform, and project knowledge.
-- Reports what was actually verified versus what could not be tested.
+1. Read SKILL.md — the short entry point and routing guide.
+2. Edit config/personality.yaml — name, voice, visual signature, and working style.
+3. Adjust config/defaults.yaml for workflow preferences.
+4. Adjust config/design-preferences.yaml for visual exploration.
+5. Adjust config/platform-preferences.yaml and config/quality-gates.yaml only if you need different platform or review defaults.
 
-## Package structure
+The personality profile is based on your screenshots: light, spacious, product-led layouts with layered panels and theme-dependent color. Ember Grid remains an optional darker technical direction.
 
-- `SKILL.md`: core instructions and workflow.
-- `config/`: editable default behavior, platform preferences, visual preferences, and quality gates.
-- `references/`: focused domain guidance loaded as needed, including visual research, reference profiles, and continuous learning.
-- `workflows/`: task-specific procedures.
-- `templates/`: optional project artifacts, including a session report.
-- `scripts/`: optional validation helpers.
-- `tests/`: manual acceptance scenarios.
+## Folder map
 
-## Install
+- SKILL.md: purpose, core behavior, and links to relevant material.
+- config/: personal identity and task defaults.
+- workflows/: optional paths for new projects, existing products, redesigns, components, mobile, and cross-platform work.
+- references/: detailed guidance loaded only when relevant, including the full art direction workflow.
+- references/reference-profiles/: reusable visual directions; Esteve visual signature is the personal default, with Ember Grid as an optional alternative.
+- templates/: optional briefs, plans, and reports.
+- scripts/: contrast calculator and structural validator.
+- tests/: manual behavior scenarios and regression expectations.
+- CHANGELOG.md: notable changes over time.
 
-This folder follows the open Agent Skills folder convention. Install it in a directory recognized by your compatible agent. A common project-level location is:
+## Working principles
 
-```text
-.agents/skills/web-design-engine/
-```
-
-Some tools use a different skill directory or require a client-specific adapter. Consult the target tool's current documentation; the contents of the skill are vendor-neutral, but discovery paths and tool access are not universal.
-
-For a shared repository:
-1. Commit this folder to Git.
-2. Add it to the project or publish the repository.
-3. Copy/link the skill folder into the agent's supported skills directory.
-4. Restart or refresh the agent if required.
-5. Ask the agent to use `web-design-engine` on a small task and verify that it reads `SKILL.md`.
-
-If your agent supports the community `skills` CLI, follow that CLI's current documentation for installing a skill from a repository. Do not assume every agent supports the same command.
-
-## Customize
-
-Edit:
-- `config/defaults.yaml` for workflow and general behavior.
-- `config/design-preferences.yaml` for visual preferences and concept selection.
-- `config/quality-gates.yaml` for validation requirements.
-
-Project-level requirements and the current user request take precedence over defaults. See `references/configuration.md`.
+- Follow the user's current request and the project's conventions.
+- Scale process and research to the size and uncertainty of the task.
+- Preserve what already works; make the smallest complete change for focused requests.
+- Use the personal visual profile as a starting point; adapt it to each project theme and brand.
+- Be clear about assumptions and evidence. Do not claim checks that were not run.
 
 ## Validate the package
 
-Run:
+Run the structural validator from this folder:
 
-```bash
+~~~sh
 python scripts/validate_skill.py
-```
+~~~
 
-This script checks the expected files, basic frontmatter requirements, and references to local resources. It does not prove compatibility with every agent or validate design quality.
+It checks required files, frontmatter, and local links. It does not judge design decisions or guarantee compatibility with every agent.
 
-## Security
+## Installation
 
-Review the skill and any scripts before using them in sensitive repositories. Scripts are optional and should be run only in a trusted environment. The core skill does not need network access and does not collect or transmit project data.
-
-## Version
-
-1.6.0
+Place this folder in a skills directory supported by your agent. Discovery and installation paths vary between tools; check the target agent's current documentation.

@@ -4,7 +4,7 @@ Use these scenarios to evaluate behavior across compatible agents. These are beh
 
 ## Case 1 — Unfamiliar landing page
 Prompt: "Design a landing page for a climate-risk analytics product for municipal planners."
-Expected: asks only material questions or states assumptions; offers distinct directions when useful; avoids invented metrics and endorsements.
+Expected: asks only material questions or states assumptions; explores directions internally and recommends one strong fit by default; shares alternatives only when requested or useful; avoids invented metrics and endorsements.
 
 ## Case 2 — Data-heavy dashboard
 Prompt: "Create a dashboard for monitoring warehouse inventory in this existing repo."
@@ -54,7 +54,7 @@ Expected: runs available checks, reports evidence and unrun checks, and does not
 
 ## Case 14 — Visual research for a new project
 Prompt: "Design a landing page for an artisan coffee subscription service."
-Expected: consults several accessible reference sources fitting the theme, compares multiple approaches, provides direct links with brief notes, never claims to have inspected an inaccessible page, and never invents URLs.
+Expected: consults a few fitting references when research adds value, compares approaches, provides direct links to sources actually inspected, and never invents URLs or details.
 
 ## Case 15 — Inaccessible reference
 Prompt: "Use this Pinterest board as inspiration" (link fails to load).
@@ -76,13 +76,21 @@ Expected: checks the 2.2 additions (focus not obscured, dragging alternatives, 2
 Prompt: "Add validation to this signup form."
 Expected: avoids premature inline errors, removes messages when corrected, provides an error summary plus per-field messages on submit, states what to fix in plain language, and does not rely on a disabled submit button as the only mechanism.
 
-## Case 20 — Zeus voice
+## Case 20 — Direct voice
 Prompt: "Give me your opinion on this layout and ask me anything you still need."
-Expected: every question and assertion addressed to the user begins with the exact prefix `Zeus a dit:`, repeated per statement; code blocks, commands, and raw data tables stay unprefixed; verification honesty and guided gates are unchanged.
+Expected: puts the opinion and the remaining questions first with no persona-imposed prefix on any statement; code blocks, commands, and raw data tables stay unprefixed; verification honesty and guided gates are unchanged.
 
-## Case 21 — Ember Grid house direction
+## Case 21 — Optional dark technical direction
 Prompt: "Design a landing page for an edge-AI inference platform."
 Expected: reads `references/reference-profiles/ember-grid.md`; proposes a restrained dark direction with one ember accent, tight grotesque type, near-black surfaces, thin borders, and a network/system visual that explains the product; uses dark text on the orange CTA or darkens the orange for white text; does not copy Gcore assets or add purple-blue AI gradients; documents any deliberate departure.
+
+## Case 22 — Personal visual references
+Prompt: "Use my screenshots as inspiration for a website in a different industry."
+Expected: identifies shared traits such as light space, product-led scale, asymmetry, and layered panels; changes colors and motifs to suit the new theme; does not copy the layouts or assets.
+
+## Case 23 — Art direction and motion planning
+Prompt: "Create a new product website with an immersive feel."
+Expected: understands the product and stack, considers distinct directions, chooses and justifies one, defines a concise visual signature and purposeful motion, implements responsively, and reports only checks actually performed. It does not add every animation technique or ask the user to pick from three concepts by default.
 
 ## Scoring
 Score each dimension 0–2:
