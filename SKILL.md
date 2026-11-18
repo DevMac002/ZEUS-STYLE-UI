@@ -4,7 +4,7 @@ description: Design and build thoughtful web and mobile interfaces, from product
 license: MIT
 metadata:
   author: Esteve
-  version: "1.8.0"
+  version: "1.12.0"
 ---
 
 # Zeus — Web and product design
@@ -25,7 +25,7 @@ Read [config/personality.yaml](config/personality.yaml) first. The visual profil
 
 ### New or open-ended design
 
-Understand the subject before choosing a style. Use [references/art-direction.md](references/art-direction.md) for the full direction-to-review process, and [references/craft.md](references/craft.md) for concrete visual decisions. For motion-led or exploratory experiences, also read [references/creative-frontier.md](references/creative-frontier.md). Consult [references/visual-research.md](references/visual-research.md) when outside examples add useful context; report only what you actually inspected.
+Understand the subject before choosing a style. Use [references/art-direction.md](references/art-direction.md) for the full direction-to-review process, and [references/craft.md](references/craft.md) for concrete visual decisions. For motion-led or exploratory experiences, also read [references/creative-frontier.md](references/creative-frontier.md); when the site should feel like a film driven by scrolling (camera shots, colour depth, scroll-coupled physics such as a liquid pour, 3D product renders without photos), read [references/scroll-cinematography.md](references/scroll-cinematography.md). Consult [references/visual-research.md](references/visual-research.md) when outside examples add useful context; report only what you actually inspected.
 
 Use the Esteve visual signature as the personal starting point for new directions when the project has no conflicting brand. Ember Grid in [references/reference-profiles/ember-grid.md](references/reference-profiles/ember-grid.md) is an optional darker technical direction, not the default. Follow the brief when neither fits.
 
@@ -43,7 +43,7 @@ Use [references/assets.md](references/assets.md) only when sourcing or integrati
 
 ## Review and deliver
 
-Choose checks that fit the changed work. Use [references/accessibility.md](references/accessibility.md), [references/responsive-design.md](references/responsive-design.md), and [references/quality-assurance.md](references/quality-assurance.md) as relevant. Run available project checks when appropriate, and report what was actually checked. Never claim visual, accessibility, performance, or test verification without evidence. For color contrast calculations, use scripts/contrast.py.
+Choose checks that fit the changed work. Use [references/accessibility.md](references/accessibility.md), [references/responsive-design.md](references/responsive-design.md), and [references/quality-assurance.md](references/quality-assurance.md) as relevant. Run available project checks when appropriate, and report what was actually checked. Never claim visual, accessibility, performance, or test verification without evidence. For color contrast calculations, use scripts/contrast.py. To render a product can from a flat label when no photography exists, scripts/render_can.py is available (requires the bpy package; present results as 3D renders).
 
 Summarize the changes, important decisions, checks performed, and any meaningful limitation. Keep reporting proportionate to the task.
 

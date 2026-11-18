@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.12.0
+- Added references/scroll-cinematography.md from a verified drink-brand build: sector motion styles, a camera-shot grammar for scroll (pull-back, rack focus, push-in, iris, orbit, travelling with motion blur, Ken Burns, crane, end credits), colour depth techniques, a scroll-velocity-driven liquid pour with splashes and screen drips, a Blender 3D product-render pipeline, and pitfalls already encountered.
+- Added scripts/render_can.py to render a realistic drink can from a flat label (bpy, Cycles CPU).
+- Recorded motion preferences in config/personality.yaml: camera movement yes, camera HUD chrome no unless asked; layered colour depth over flat fills.
+- Linked the guide from SKILL.md and creative-frontier.md; added test cases 25–26, behavior guardrails, and validator entries. SKILL.md metadata version now matches the changelog.
+
 ## 1.11.0
 - Added Creative Frontier guidance for theme-specific immersive interactions, scroll choreography, and experiential motion.
 - Routed new motion-led projects through the guide while keeping the creative process proportional to scope.

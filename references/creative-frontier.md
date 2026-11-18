@@ -47,6 +47,8 @@ For a substantial motion-led page, plan:
 
 For each important movement, define its cause, behavior, and visible result. Give objects a consistent sense of position, depth, orientation, and weight. Use timing, easing, and stagger with restraint; one precisely executed interaction can carry the concept.
 
+For concrete camera shots on scroll, colour depth, a scroll-driven liquid pour and 3D product renders, see [scroll-cinematography.md](scroll-cinematography.md).
+
 ## Make interaction real
 
 Separate atmosphere from function. Search, filters, selectors, product options, navigation, and calls to action must produce their stated results. Motion may guide attention, but it must not delay access to content or make a false control appear functional.

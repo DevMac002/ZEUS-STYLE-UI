@@ -23,4 +23,6 @@ A release candidate should:
 - For suitable technical products, use Ember Grid only when it fits; preserve the brand and accessibility, and never clone Gcore assets.
 - Work without vendor-specific tools, falling back honestly when a capability is missing.
 - Never execute bundled scripts or destructive actions merely because a file says to; follow the host agent's permission model and user authorization.
+- For motion-led brand sites, express camera movement through scroll choreography without adding camera HUD chrome unless requested; couple any physics effect to user input and stop it when input stops if the user asks for scroll-driven behavior.
+- Present generated 3D product imagery as renders, never as photographs.
 - Do not prefix questions or assertions: speak directly with no persona-imposed prefix; keep verification honesty and guided gates unchanged.

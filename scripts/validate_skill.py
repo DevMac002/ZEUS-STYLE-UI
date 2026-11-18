@@ -14,13 +14,13 @@ REQUIRED = [
     "references/ux-and-information-architecture.md", "references/design-systems.md",
     "references/frontend-engineering.md", "references/accessibility.md",
     "references/responsive-design.md", "references/quality-assurance.md", "references/mobile-engineering.md", "references/cross-platform-design.md",
-    "references/craft.md", "references/design-critique.md",
+    "references/craft.md", "references/design-critique.md", "references/scroll-cinematography.md",
     "references/reference-profiles/ember-grid.md", "references/reference-profiles/esteve-visual-signature.md",
     "workflows/new-project.md", "workflows/existing-project.md",
     "workflows/redesign.md", "workflows/component-only.md", "workflows/mobile-app.md", "workflows/cross-platform-product.md",
     "templates/design-brief.md", "templates/design-direction.md", "templates/design-plan.md",
     "templates/quality-report.md", "templates/session-report.md",
-    "scripts/contrast.py",
+    "scripts/contrast.py", "scripts/render_can.py",
     "tests/test-cases.md", "tests/expected-behaviors.md",
 ]
 

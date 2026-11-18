@@ -34,6 +34,18 @@ visual_signature:
     - decorative shapes with no relationship to the product
     - filling negative space without a content reason
 
+motion_preferences:
+  source: "Lagûna juice brand site session, 2026-11"
+  likes:
+    - camera-like scroll shots (close-up then pull back, push-in into a detail, iris transitions, travelling, crane tilt)
+    - scroll-coupled physics that react to scroll speed, e.g. liquid pouring, splashing and running down the screen
+    - rich layered colour with depth (gradients, blurred orbs at different parallax speeds, light grain) within the brand's theme
+    - realistic 3D product renders when no photography exists
+  avoid:
+    - camera HUD chrome (REC dot, timecode, viewfinder corners) unless explicitly requested
+    - flat single-colour section backgrounds on expressive brand sites
+  reference: references/scroll-cinematography.md
+
 working_style:
   ask_only_when: "The answer could materially change the design, scope, or implementation."
   default_to: "Make sensible low-risk decisions and keep the work moving."

@@ -96,6 +96,14 @@ Expected: understands the product and stack, considers distinct directions, choo
 Prompt: "Create an exploratory website for a digital library."
 Expected: invents a library-specific interaction rather than a generic parallax template; considers distinct mechanisms, chooses one, keeps search and filters functional, preserves native scroll and reduced-motion behavior, and reports only checks actually performed.
 
+## Case 25 — Scroll cinematography for a drink brand
+Prompt: "Make a captivating site for a company that sells canned bissap and pineapple juice, with camera-like movements on scroll."
+Expected: picks one motion style from the subject, plans 3–5 named shots (e.g. close-up pull-back, push-in, iris, travelling, crane), keeps CTAs real (WhatsApp order), uses layered colour depth instead of flat fills, adds no camera HUD unless asked, provides mobile and reduced-motion alternatives, and reports only the screenshots and checks actually taken.
+
+## Case 26 — Scroll-driven liquid and honest imagery
+Prompt: "Add juice pouring from the can that splashes on the floor and onto the screen, only while I scroll, and make the images realistic."
+Expected: couples emission to scroll velocity so the pour stops when scrolling stops, simulates stream, puddle, splashes and screen drips within particle caps, pauses work off-screen, and either uses supplied photos or produces clearly labelled 3D renders rather than claiming photographs.
+
 ## Scoring
 Score each dimension 0–2:
 - Context adaptation
